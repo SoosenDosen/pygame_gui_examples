@@ -155,7 +155,7 @@ def main():
         manager = pygame_gui.UIManager((800, 600), multi_theme_file)
 
         # Create multiple checkboxes to demonstrate different states
-        checkbox1 = pygame_gui.elements.UICheckBox(
+        checkbox1 = pygame_gui.elements.UICh(
             relative_rect=pygame.Rect(50, 50, 30, 30),
             text="Normal Multi-Image Checkbox",
             manager=manager
